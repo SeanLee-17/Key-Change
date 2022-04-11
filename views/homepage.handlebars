@@ -1,0 +1,17 @@
+<!-- Loop over each object in the projects array -->
+{{#each product as |p| }}
+<div class="row mb-4 project">
+  <div class="col-md-5">
+    <h2>
+      <p>{{p.id}}. {{p.name}}</p>
+    </h2>
+
+    <p>Price: {{p.price}}</p>
+  </div>
+  <div class="col-md-7">
+    <p>
+      {{p.description}}
+    </p>
+  </div>
+</div>
+{{/each}}
