@@ -1,6 +1,17 @@
 const router = require("express").Router();
 const { Product } = require("../../models");
 
+// get all products
+router.get("/", async (req, res) => {
+  // find all products
+  try {
+    const productData = await Product.findAll({});
+    res.status(200).json(productData);
+  } catch (error) {
+    res.status(500).json(error);
+  }
+});
+
 router.post("/", async (req, res) => {
   try {
     const newProduct = await Product.create({
