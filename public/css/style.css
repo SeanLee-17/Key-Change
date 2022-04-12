@@ -1,4 +1,5 @@
-header, .project:not(:last-child) {
+header,
+.project:not(:last-child) {
   border-bottom: 1px solid #ccc;
 }
 
@@ -21,12 +22,6 @@ body a {
   text-decoration: underline;
 }
 
-.dollar-amount {
-  color: #056605;
-  font-weight: bold;
-  margin-left: -5px;
-}
-
 .card-deck {
   margin: 0 auto;
   display: grid;
@@ -35,37 +30,39 @@ body a {
   font-family: sans-serif;
 }
 
-.card {
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
-}
-
 /* card  */
-.container{
+.container {
   display: flex;
   flex-flow: wrap;
 }
 
 .card {
-  background-color: #c1e8ed;
+  background-image: linear-gradient(to bottom, #efe6fc, white);
   width: 400px;
   padding: 10px;
   border: 1px solid #eee;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+#viewInstrument {
+  background-color: #6f42c1;
+  color: white;
 }
 
 .inner-card {
   background: #fff;
   padding: 10px;
-  border-radius: 5px
+  border-radius: 5px;
 }
 
 .btn:focus {
   color: #fff;
   background-color: #025ce2;
   border-color: #0257d5;
-  box-shadow: none
+  box-shadow: none;
 }
 
-.card-group{
+.card-group {
   padding: 15px;
 }
 
@@ -79,4 +76,3 @@ body a {
 #welcometext span {
   padding-left: 12rem;
 }
-
