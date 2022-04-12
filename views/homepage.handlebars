@@ -10,7 +10,7 @@
       <h5 class="card-title">{{p.id}}. {{p.name}}</h5>
       <p class="card-text">{{p.description}}</p>
       <p class="card-text">Price: ${{p.price}}</p>
-      <a href="#" class="btn btn-success">Go to Instrument</a>
+      <a href="/product/{{p.id}}" id="viewInstrument" class="btn btn-success">Go to Instrument</a>
     </div>
   </div>
 {{/each}}
