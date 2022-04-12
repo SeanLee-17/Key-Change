@@ -1,12 +1,15 @@
 <!-- Loop over each object in the projects array -->
-{{#each product as |p| }}
-<div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="..." alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title">{{p.id}}. {{p.name}}</h5>
-    <p class="card-text">{{p.description}}</p>
-     <p class="card-text">Price: ${{p.price}}</p>
-    <a href="#" class="btn btn-primary">Go to Instrument</a> 
+{{#each product as |p|}}
+  <div
+    class="card"
+    style="width: 18rem; border: 15px solid #d1f374; border-radius: 15px; padding: 15px; background-image: linear-gradient(to bottom, white, #c7f374); width: 350px; "
+  >
+    <img class="card-img-top" src="..." alt="Card image cap" />
+    <div class="card-body">
+      <h5 class="card-title">{{p.id}}. {{p.name}}</h5>
+      <p class="card-text">{{p.description}}</p>
+      <p class="card-text">Price: ${{p.price}}</p>
+      <a href="#" class="btn btn-success">Go to Instrument</a>
+    </div>
   </div>
-</div>
 {{/each}}
