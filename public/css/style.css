@@ -3,6 +3,10 @@ header,
   border-bottom: 1px solid #ccc;
 }
 
+header {
+  background-image: linear-gradient(to right, white, #e2d0fc);
+}
+
 body a {
   text-decoration: none;
 }
@@ -37,7 +41,13 @@ body a {
 }
 
 .card {
-  background-image: linear-gradient(to bottom, #efe6fc, white);
+  background-image: linear-gradient(
+    to right bottom,
+    white,
+    #e2d0fc,
+    white,
+    #e2d0fc
+  );
   width: 400px;
   padding: 10px;
   border: 1px solid #eee;
