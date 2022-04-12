@@ -1,14 +1,18 @@
 <!-- Loop over each object in the projects array -->
-
-{{#each product as |p|}}
-  <div
-    class="card"
-    style="width: 18rem; border: 15px solid #d1f374; border-radius: 15px; padding: 15px; background-image: linear-gradient(to bottom, white, #c7f374); width: 350px; ">
-    <img class="card-img-top" src="{{p.url}}" alt="Card image cap" />
+{{#if logged_in}}
+  {{#each product as |p| }}
+<div class="card-group">
+  <div class="card">
+    <img class="card-img-top" ssrc="{{p.url}}" src="https://images.unsplash.com/photo-1586350493574-eaa8c05005d2?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8aW5zdHJ1bWVudHx8fHx8fDE2NDk3NDIzODc&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=420" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">{{p.id}}. {{p.name}}</h5>
       <p class="card-text">{{p.description}}</p>
-      <p class="card-text">Price: ${{p.price}}</p>
+      <p class="card-text"><small>Price: ${{p.price}}</small></p>
+    </div>
       <a href="/product/{{p.id}}" id="viewInstrument" class="btn btn-success">Go to Instrument</a>
   </div>
+</div>
 {{/each}}
+{{else}}
+  <h3>Welcome to Key Change.</h3>
+{{/if}}
