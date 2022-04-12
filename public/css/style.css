@@ -2,6 +2,10 @@ header, .project:not(:last-child) {
   border-bottom: 1px solid #ccc;
 }
 
+body a {
+  text-decoration: none;
+}
+
 .no-button {
   background: none;
   border: none;
@@ -64,3 +68,15 @@ header, .project:not(:last-child) {
 .card-group{
   padding: 15px;
 }
+
+#welcometext {
+  text-align: center;
+  font-size: 4rem;
+  padding: 10rem;
+  font-weight: 700;
+}
+
+#welcometext span {
+  padding-left: 12rem;
+}
+
