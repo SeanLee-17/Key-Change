@@ -31,6 +31,8 @@
           <a href="/">Home</a>
             |
             <a href="/login">Login</a>
+            |
+            <a href="/login">Register</a>
           {{/if}}
         </nav>
       </header>
@@ -52,9 +54,14 @@
           <div class="col-xl-2 col-md-4 col-sm-4 col-12">
             <h6 class="mb-3 mb-lg-4 bold-text "><b>MENU</b></h6>
             <ul class="list-unstyled footerlinks">
+              {{#if logged_in}}
               <li><a href="/">Home</a></li>
+              <li><a href="/profile">Add a product</a></li>
+              {{else}}
+                <li><a href="/">Home</a></li>
               <li><a href="/login">Register</a></li>
               <li><a href="/login">Login</a></li>
+              {{/if}}
             </ul>
           </div>
           <div class="col-xl-2 col-md-4 col-sm-4 col-12">
