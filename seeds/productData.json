@@ -7,7 +7,7 @@
     },
     {
       "name": "PRS SE Custom Electric Guitar",
-      "description": "This baby's been on tour around the world so it's a little worn but plays beautifully. Has a warm tone and great character. Very Versatile.",
+      "description": "This baby's been on tour around the world so it's a little worn but plays beautifully. Has a warm tone and great character. Very versatile.",
       "price": 2250.00,
       "url": "https://res.cloudinary.com/dvs6jlbvz/image/upload/v1649794045/PRS_SE_Custom_abllw7.webp"
     },
@@ -43,7 +43,7 @@
     },
     {
         "name": "Yamaha Stage Custom Birch Shell Pack Drum Set",
-        "description": "Could not take how loud my wife is when she plays these things. Switched her to an electric set and am selling this off. Great condidtion, had seen many bar venues in the 90's so may smell a little smokey.",
+        "description": "Could not take how loud my wife is when she plays these things. Switched her to an electric set and am selling this off. Great condition, had seen many bar venues in the 90's so may smell a little smokey.",
         "price": 650.00,
         "url": "https://res.cloudinary.com/dvs6jlbvz/image/upload/v1649794210/Yamaha-Stage-Custom-01_tsvo2u.jpg"
     },
@@ -55,8 +55,14 @@
     },
     {
         "name": "Ableton Push 2",
-        "description": "Good condition. Does not come with Ableton Live Software, or any cables so you'll have to order those seperatly",
+        "description": "Good condition. Does not come with Ableton Live Software, or any cables so you'll have to order those seperatly.",
         "price": 650.00,
         "url": "https://res.cloudinary.com/dvs6jlbvz/image/upload/v1649794385/Ableton_Push_2_uxkhw4.jpg"
+    },
+    {
+        "name": "Finkenbiener Glass Harmonica",
+        "description": "One of a kind Glass Harmonica, played by Mr. Finkenbiener himself in the Michael Jackson Documentary \"This is It\", as well as in the critically acclaimed BlockBuster \"Shark Tale\". ",
+        "price": 24000,
+        "url": "https://res.cloudinary.com/dvs6jlbvz/image/upload/v1649798518/lv8usnxjvkexn2rojrb8.jpg"
     }
   ]
