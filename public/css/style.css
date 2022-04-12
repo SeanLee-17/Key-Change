@@ -1,0 +1,82 @@
+header, .project:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+body a {
+  text-decoration: none;
+}
+
+.no-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: #1b89bc;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+.no-button:hover {
+  color: #065b83;
+  text-decoration: underline;
+}
+
+.dollar-amount {
+  color: #056605;
+  font-weight: bold;
+  margin-left: -5px;
+}
+
+.card-deck {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  font-family: sans-serif;
+}
+
+.card {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+/* card  */
+.container{
+  display: flex;
+  flex-flow: wrap;
+}
+
+.card {
+  background-color: #c1e8ed;
+  width: 400px;
+  padding: 10px;
+  border: 1px solid #eee;
+}
+
+.inner-card {
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px
+}
+
+.btn:focus {
+  color: #fff;
+  background-color: #025ce2;
+  border-color: #0257d5;
+  box-shadow: none
+}
+
+.card-group{
+  padding: 15px;
+}
+
+#welcometext {
+  text-align: center;
+  font-size: 4rem;
+  padding: 10rem;
+  font-weight: 700;
+}
+
+#welcometext span {
+  padding-left: 12rem;
+}
+
