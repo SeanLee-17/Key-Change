@@ -3,7 +3,7 @@ header,
   border-bottom: 1px solid #ccc;
 }
 
-footer,
+
 header {
   background-image: linear-gradient(to right, white, #e2d0fc);
 }
@@ -12,19 +12,33 @@ body a {
   text-decoration: none;
 }
 
+nav a {
+  font-size: 1.2rem;
+  padding: 2rem;
+  color: black;
+  font-weight: 600;
+}
+
+nav a:hover{
+  text-decoration: none;
+  color: purple;
+}
+
 .no-button {
+  font-weight: 600;
   background: none;
   border: none;
-  padding: 0;
   cursor: pointer;
-  color: #1b89bc;
   text-decoration: none;
   font-size: 100%;
+  font-size: 1.2rem;
+  padding: 2rem;
+  color: black;
 }
 
 .no-button:hover {
-  color: #065b83;
-  text-decoration: underline;
+  color: purple;
+  text-decoration: none;
 }
 
 .card-deck {
@@ -90,10 +104,14 @@ body a {
 
 /* footer  */
 
+footer{
+  color: black;
+}
+
 .confooter {
   overflow: hidden;
   margin-top: 250px;
-  background: #262626;
+  background-image: linear-gradient(to right, white, #e2d0fc);
   color: #627482 !important;
   margin-bottom: 0;
   padding-bottom: 0;
@@ -132,5 +150,5 @@ h3 {
 }
 
 .footerlinks li a {
-  color: white;
+  color: black;
 }
