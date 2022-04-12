@@ -3,7 +3,7 @@
   {{#each product as |p| }}
 <div class="card-group">
   <div class="card">
-    <img class="card-img-top" ssrc="{{p.url}}" src="https://images.unsplash.com/photo-1586350493574-eaa8c05005d2?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8aW5zdHJ1bWVudHx8fHx8fDE2NDk3NDIzODc&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=420" alt="Card image cap">
+    <img class="card-img-top" src={{p.url}} alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">{{p.id}}. {{p.name}}</h5>
       <p class="card-text">{{p.description}}</p>
