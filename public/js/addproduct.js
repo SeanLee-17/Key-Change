@@ -10,7 +10,8 @@ let url = ""
   }
   )
 
-  document.getElementById("upload_widget").addEventListener("click", function () {
+  document.getElementById("upload_widget").addEventListener("click", function (e) {
+    e.preventDefault()
     myWidget.open();
   }, false);
 

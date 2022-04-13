@@ -10,10 +10,16 @@ router.get('/', async (req, res) => {
     // Serialize data so the template can read it
     const product = productData.map((product) => product.get({ plain: true }));
 
+    let backgroundpic = "pages"
+    if (req.session.logged_in) {
+      backgroundpic = "main"
+    }
+
     // Pass serialized data and session flag into template
     res.render('homepage', {
       product,
-      logged_in: req.session.logged_in
+      logged_in: req.session.logged_in,
+      layout: backgroundpic
     });
   } catch (err) {
     res.status(500).json(err);

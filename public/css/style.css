@@ -8,6 +8,11 @@ header {
   background-image: linear-gradient(to right, white, #e2d0fc);
 }
 
+body.backgroundbod{
+   background: url(https://images.unsplash.com/photo-1517409091671-180985f2ca15?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1100&ixid=MnwxfDB8MXxyYW5kb218MHx8ZGFyaz9tdXNpY3x8fHx8fDE2NDk4MzE5MTA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=3500
+  );
+}
+
 body a {
   text-decoration: none;
 }
@@ -15,13 +20,13 @@ body a {
 nav a {
   font-size: 1.2rem;
   padding: 2rem;
-  color: black;
+  color: #5065a8;
   font-weight: 600;
 }
 
 nav a:hover{
   text-decoration: none;
-  color: purple;
+  color: #000f42;
 }
 
 .no-button {
@@ -33,11 +38,11 @@ nav a:hover{
   font-size: 100%;
   font-size: 1.2rem;
   padding: 2rem;
-  color: black;
+  color: #5065a8;
 }
 
 .no-button:hover {
-  color: purple;
+  color: #000f42;
   text-decoration: none;
 }
 
@@ -92,10 +97,15 @@ nav a:hover{
 }
 
 #welcometext {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 4rem;
-  padding: 10rem;
+  text-align: center;
+  /* padding: 5rem; */
   font-weight: 700;
+  color:  #fff;
+  margin-right: 200em;
 }
 
 #welcometext span {
