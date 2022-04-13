@@ -1,0 +1,68 @@
+[
+    {
+      "name": "Selmer Paris 52AXOS Alto Saxophone",
+      "description": "Professional Selmer Alto Sax. Perfect condition and barely used. No mouthpiece or reeds included. Does come with a nice neckstrap.",
+      "price": 3500.00,
+      "url": "https://res.cloudinary.com/dvs6jlbvz/image/upload/v1649794053/selmer-paris-axos-2nd-gen-alto-sax_k6yclz.jpg"
+    },
+    {
+      "name": "PRS SE Custom Electric Guitar",
+      "description": "This baby's been on tour around the world so it's a little worn but plays beautifully. Has a warm tone and great character. Very versatile.",
+      "price": 2250.00,
+      "url": "https://res.cloudinary.com/dvs6jlbvz/image/upload/v1649794045/PRS_SE_Custom_abllw7.webp"
+    },
+    {
+      "name": "Native Instruments KOMPLETE KONTROL S88 Keyboard",
+      "description": "Lightly used, my son gave up trying to be a music producer so I'm basically giving this thing away. Damn kid gives up on everything smh.",
+      "price": 800.00,
+      "url": "https://res.cloudinary.com/dvs6jlbvz/image/upload/v1649794035/Native_Instruments_KOMPLETE_KONTROL_S88_Keyboard_aplwqw.jpg"
+    },
+    {
+        "name": "Didgeridoo",
+        "description": "Don't know the brand but it plays fine. Not real eucalyptus, I think it's made out of PVC pipe. Anyway, it's a good deal.",
+        "price": 60.00,
+        "url": "https://res.cloudinary.com/dvs6jlbvz/image/upload/v1649790840/dpzbes7n66xtsehegbmz.jpg"
+    },
+    {
+        "name": "C.G. Conn 6D Artist Intermediate Double French Horn",
+        "description": "Good French Horn for any band student. My husband dropped it a few times so it has some dings and dents. One of the valves is a little sticky too. Otherwise it's good to go.",
+        "price": 3150.00,
+        "url": "https://res.cloudinary.com/dvs6jlbvz/image/upload/v1649794014/C.G._Conn_6D_Artist_Intermediate_Double_French_Horn_csrw0j.jpg"
+    },
+    {
+        "name": "Crestwood Acoustic Guitar",
+        "description": "Super cheap off-brand guitar I found in my basement. Got some water damage, honestly it's a pretty messed up guitar but might make some kid's day.",
+        "price": 80.00,
+        "url": "https://res.cloudinary.com/dvs6jlbvz/image/upload/v1649794026/Crestwood_Acoustic_Guitar_rs3dfn.jpg"
+    },
+    {
+        "name": "Scherl & Roth SR55E4H 4/4 Size Galliard Student Cello",
+        "description": "My daughter took very good care of this Cello. Comes with a bow and case. Perfect for starter students.",
+        "price": 1800.00,
+        "url": "https://res.cloudinary.com/dvs6jlbvz/image/upload/v1649794149/Scherl_Roth_SR55E4H_4_4_Size_Galliard_Student_Cello_xfkwrl.webp"
+    },
+    {
+        "name": "Yamaha Stage Custom Birch Shell Pack Drum Set",
+        "description": "Could not take how loud my wife is when she plays these things. Switched her to an electric set and am selling this off. Great condition, had seen many bar venues in the 90's so may smell a little smokey.",
+        "price": 650.00,
+        "url": "https://res.cloudinary.com/dvs6jlbvz/image/upload/v1649794210/Yamaha-Stage-Custom-01_tsvo2u.jpg"
+    },
+    {
+        "name": "Yamaha YCL-622 II Professional Bb Bass Clarinet",
+        "description": "SERIOUS BUYERS ONLY. This Bass Clarinet has been in many concert halls. Played mostly with the Detroit Symphony Orchestra. Perfect condition.",
+        "price": 9450.00,
+        "url": "https://res.cloudinary.com/dvs6jlbvz/image/upload/v1649794303/Yamaha_YCL-622_II_Professional_Bb_Bass_Clarinet_mldzbz.webp"
+    },
+    {
+        "name": "Ableton Push 2",
+        "description": "Good condition. Does not come with Ableton Live Software, or any cables so you'll have to order those seperatly.",
+        "price": 650.00,
+        "url": "https://res.cloudinary.com/dvs6jlbvz/image/upload/v1649794385/Ableton_Push_2_uxkhw4.jpg"
+    },
+    {
+        "name": "Finkenbiener Glass Harmonica",
+        "description": "One of a kind Glass Harmonica, played by Mr. Finkenbiener himself in the Michael Jackson Documentary \"This is It\", as well as in the critically acclaimed BlockBuster \"Shark Tale\". ",
+        "price": 24000,
+        "url": "https://res.cloudinary.com/dvs6jlbvz/image/upload/v1649798518/lv8usnxjvkexn2rojrb8.jpg"
+    }
+  ]

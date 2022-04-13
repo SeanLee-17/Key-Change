@@ -1,0 +1,22 @@
+<!-- Loop over each object in the projects array -->
+{{#if logged_in}}
+  {{#each product as |p|}}
+    <div class="card-group">
+      <div class="card">
+        <img class="card-img-top" src={{p.url}} alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">{{p.id}}. {{p.name}}</h5>
+          <p class="card-text">{{p.description}}</p>
+          <p class="card-text"><small>Price: ${{p.price}}</small></p>
+        </div>
+        <a
+          href="/product/{{p.id}}"
+          id="viewInstrument"
+          class="btn btn-$indigo"
+        >Go to Instrument</a>
+      </div>
+    </div>
+  {{/each}}
+{{else}}
+  <p id="welcometext">Welcome to <br />Key Change </p>
+{{/if}}
