@@ -19,6 +19,7 @@ router.get('/', async (req, res) => {
     res.render('homepage', {
       product,
       logged_in: req.session.logged_in,
+      name: req.session.name,
       layout: backgroundpic
     });
   } catch (err) {
@@ -35,6 +36,7 @@ router.get('/product/:id', async (req, res) => {
 
     res.render('products', {
       ...products,
+      name: req.session.name,
       logged_in: req.session.logged_in
     });
   } catch (err) {
@@ -55,6 +57,7 @@ router.get('/profile', withAuth, async (req, res) => {
 
     res.render('profile', {
       ...user,
+      name: req.session.name,
       logged_in: true
     });
   } catch (err) {
