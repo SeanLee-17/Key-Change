@@ -20,7 +20,7 @@ let url = ""
 async function newFormHandler(event) {
   event.preventDefault();
 
-  const name = document.querySelector('#formGroupExampleInput').value;
+  const insname = document.querySelector('#formGroupExampleInput').value;
   const description = document.querySelector('#formGroupExampleInput2').value;
   let price = document.querySelector('#formGroupExampleInput3').value;
   price = parseInt(price);
@@ -28,7 +28,7 @@ async function newFormHandler(event) {
   const response = await fetch(`/api/product`, {
     method: 'POST',
     body: JSON.stringify({
-      name,
+      insname,
       description,
       price,
       url
